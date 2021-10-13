@@ -10,15 +10,24 @@
 </head>
 
 <body>
-    <div class="display">
-        <span id="hr">00</span>:<span id="min">00</span>:<span id="sec">00</span>
+    <div id="circle">
+        <div class="container">
+            
+             <P>STOPWATCH</P>
+            
+            <div class="display">
+                <b><span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span></b>
+            </div>
+
+            <div class="controls">
+                <button id="start" onclick="start()">start</button>
+                <button id="pause" onclick="pause()" disabled>pause</button> 
+                <button id="stop" onclick="reset()" disabled>stop</button>  
+            </div>
+            
+        </div>
     </div>
-     
-    <div class="controls">
-        <button id="start" onclick="start()">start</button>
-        <button id="pause" onclick="pause()" disabled>pause</button> 
-        <button id="stop" onclick="reset()" disabled>stop</button>  
-    </div>
+    
     <script src="index.js"></script>
 </body>
 
