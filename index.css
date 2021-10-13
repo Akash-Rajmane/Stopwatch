@@ -2,22 +2,36 @@
     text-align: center;
 }
 
+#circle {
+    background: #e6eede;
+    border-radius: 80%;
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 55px;
+    border: 1px solid;
+    box-shadow: 5px 5px grey;
+}
+
+
 .display{
+    margin-top: 20px;
     width: 200px;
-    background-color: hsl(135, 70%, 85%);;
+    background-color: #222222;
     border: 1px solid black;
     padding: 10px;
     font-size: 18px;
     text-align: center; 
     margin: auto;   
-    margin-top: 25px;
     box-shadow: 0 5px grey ;
-    font-weight: bolder;
+    font-weight: bold;
+    color: #fff;
 }
 
 .controls{
     padding: 10px;   
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 button{
@@ -25,4 +39,21 @@ button{
     font-size: 14px;
     width: 80px;
     margin-left: 5px;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+.container{
+    padding-top: 70px;
+}
+
+p{
+    color: gold;
+    text-shadow: 
+    0px 0px 1px pink,
+    0px 0px 5px violet,
+    0px 0px 10px purple,
+    0px 0px 15px red,
+    0px 0px 25px darkred;
+
 }
